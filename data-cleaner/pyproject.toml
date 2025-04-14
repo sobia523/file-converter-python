@@ -3,8 +3,9 @@ name = "data-cleaner"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.8"
 dependencies = [
-    "streamlit",
-    "pandas"
+    "streamlit>=1.32.0",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0"
 ]
